@@ -1,0 +1,2 @@
+for i in range(0,10000,50):
+    print(i)                  #difference between the number is 50

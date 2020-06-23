@@ -1,0 +1,71 @@
+import math  #for remaining all 
+import numpy #for angle()
+while 1:
+    print("MAKE UR CHOICE HERE AND GET ANSWER")
+    print("1.sin60")
+    print("2.cos(pi)")
+    print("3.tan90")
+    print("4. angle of sin(0.8660254037844386)")
+    print("5. square root of 400")
+    print("6. value of 5^e")
+    print("7. the value of Log(1024),base 2")
+    print("8. the value of Log(1024),base 10")
+    print("9. floor and celing value of 23.56")
+    print("10. 5^8")
+    break
+
+a=int(input("enter the option,please : "))
+
+
+
+if a==1:
+    n=60
+    print("sin(60) : "+ str(math.sin(n)))
+        
+elif a==2:
+    print("cos(pi) : " + str(math.cos(math.pi)))
+       
+elif a==3:
+    s=90
+    print("tan(90) : " + str(math.tan(s)))
+        
+elif a==4:
+    x=0.8660254037844386 
+    print("angle value : " + str(numpy.angle(math.sin(x))))
+        
+elif a==5:
+    print("square root of 400 : " + str(math.sqrt(400)))
+        
+elif a==6:
+    t=5 ^ e
+    print("value of 5^e : " + str(t))
+        
+elif a==7:
+    print("the value of Log(1024),base 2 : " + str(math.log(1024,2)))
+        
+elif a==8:
+     print("the value of Log(1024),base 10 : " + str(math.log(1024,10)))
+     
+elif a==9:
+     z1=math.floor(23.56)
+     z2=math.ceil(23.56)
+     print("floor and ceil value : " + str(z1) + str(z2))
+        
+elif a==10:
+     m=5 ^ 8
+     print("XOR value : "+ str(m))
+        
+else:
+    print("invalid")
+    
+    
+
+
+
+
+
+
+
+    
+
+    
